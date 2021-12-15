@@ -3,4 +3,6 @@
 
 **/*.model
 **/*.npy
+accuracy.csv
+questions-words.txt
 corpus.txt
