@@ -76,11 +76,11 @@ Output:
 man is to doctor as woman is to: nurse
 ```
 
-The way this works is that we expect words that share the a same relation will have a similar distance from each other in our embeds. Lets say that each word is represented by an n-dimensional vector, if $u$ is the vector that represents germany, $v$ is the vector for berlin and $w$ is the vector for france, a word that is to france as berlin is to germany would be close to a vector $x$ obtained by:
+The way this works is that we expect words that share the a same relation will have a similar distance from each other in our embeds. Lets say that each word is represented by an n-dimensional vector, if _u_ is the vector that represents germany, _v_ is the vector for berlin and _w_ is the vector for france, a word that is to france as berlin is to germany would be close to a vector _x_ obtained by:
 
-$$
-x = (u - v) + w
-$$
+<p align="center">
+  <img src="assets/vector-equation.jpeg" />
+</p>
 
 This way we can expect that the vector for the word paris would be one of the closest vectors from $x$. This happends on a n-dimensional space, 300-dimensional space in our case, so we can not visualize it properly, however, we can plot a projection of the vectors on an 2-dimensional or 3-dimensional space and have an idea of what it looks like.
 
