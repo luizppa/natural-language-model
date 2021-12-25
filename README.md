@@ -2,7 +2,7 @@
 
 ## Word2Vec
 
-The Word2Vec technique is a method for obtaining and word embeding suitable for natural language processing, such as finding synonyms, making analogies and suggesting missing words for a sentence. It uses a neural network to learn from a large text (or corpus) am build a n-dimensional space containing one vector for each word on the training vocabulary.
+The Word2Vec technique is a method for obtaining a word embeding suitable for natural language processing, such as finding synonyms, making analogies and suggesting missing words for a sentence. It uses a neural network to learn from a large text (or corpus) and build a n-dimensional space containing one vector for each word on the training vocabulary.
 
 This technique is relatively recent, being first published by a team of Google researches in 2013. The two main algorithms applied are skipgram and cbow. In both cases, we use a set of hyperparams, such as number of features in the word embeding (or the dimensionality of each word vector), the number of epochs and the size of our context window, to define the way our language model will be trained.
 
